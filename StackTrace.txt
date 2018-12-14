@@ -1,0 +1,22 @@
+Thread [main] (Suspended (breakpoint at line 16 in Address))	
+		Address.setZipcode(String) line: 16	
+		NativeMethodAccessorImpl.invoke0(Method, Object, Object[]) line: not available [native method]	
+		NativeMethodAccessorImpl.invoke(Object, Object[]) line: not available	
+		DelegatingMethodAccessorImpl.invoke(Object, Object[]) line: not available	
+		Method.invoke(Object, Object...) line: not available	
+		MethodProperty.set(Object, Object) line: 114	
+		MethodProperty.deserializeAndSet(JsonParser, DeserializationContext, Object) line: 98	
+		BeanDeserializer.deserializeFromObject(JsonParser, DeserializationContext) line: 295	
+		BeanDeserializer.deserialize(JsonParser, DeserializationContext) line: 121	
+		MethodProperty(SettableBeanProperty).deserialize(JsonParser, DeserializationContext) line: 464	
+		MethodProperty.deserializeAndSet(JsonParser, DeserializationContext, Object) line: 98	
+		BeanDeserializer.deserializeFromObject(JsonParser, DeserializationContext) line: 295	
+		BeanDeserializer.deserialize(JsonParser, DeserializationContext) line: 121	
+		ObjectMapper._readMapAndClose(JsonParser, JavaType) line: 2888	
+		ObjectMapper.readValue(String, Class<T>) line: 2034	
+		Main.jsonToJavaObjectPersonne(String) line: 34	
+		Main.main(String[]) line: 18	
+
+Thread [main] (Suspended (breakpoint at line 16 in Address))	
+	Address.setZipcode(String) line: 16	
+	Main.main(String[]) line: 20	
